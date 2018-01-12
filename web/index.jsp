@@ -1,3 +1,5 @@
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="com.webapp.Constants" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
     <!DOCTYPE html>
     <html class="no-js">
@@ -45,7 +47,7 @@
                 </div>
             </nav>
         </div>
-        <button id="Shoot" type="button"> Shoot </button>
+        <div> <button id="Shoot" type="button"> Shoot </button> <span class="badge badge-primary badge-pill" id="value"></span> </div>
 
         <section class="hero-area">
             <div class="container">
@@ -53,9 +55,18 @@
                     <div class="col-md-6 text-center">
                         <div class="col-lg-10" id="Rank">
                             <ul class="list-group">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">Java <span class="badge badge-primary badge-pill">14</span></li>
-                                <li class="list-group-item"> Fortran </li>
-                                <li class="list-group-item">Python</li>
+                                 <%
+                                     Constants.Lang
+
+
+
+
+
+
+                                 %>
+                                <li id="data20" class="list-group-item d-flex justify-content-between align-items-left"> Java <span id="data01" class="badge badge-primary badge-pill"></span></li>
+                                <li id="" class="list-group-item"> Fortran </li>
+                                <li id=""class="list-group-item">Python</li>
                                 <li class="list-group-item">C</li>
                                 <li class="list-group-item">C++</li>
                                 <li class="list-group-item">C#</li>
@@ -87,7 +98,7 @@
                                                     <option>C++</option>
                                                     <option>C#</option>
                                                     <option>PHP</option>
-                                                    <option>JavaScript &#xf3b8</option>
+                                                    <option>JavaScript</option>
                                                     <option>Swift</option>
                                                     <option>Ruby</option>
                                                     <option>Pascal</option>

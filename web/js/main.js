@@ -93,14 +93,17 @@ $('#Shoot').on('click', function (e) {
     $.ajax({
         type: "POST",
         url: "statistics",
-        data: {
-            jsonCountLangOne: jsonCountLangOne,
-            jsonCountLang: jsonCountLang,
-
-        },
         success: function (data) {
             // window.location.reload();
-            alert("Hello World");
+
+
+
+            let listElement =  $('#data20');
+            let badgeElement =  $("<span class='badge badge-primary badge-pill'></span>").text(data[0]);
+            listElement.append(badgeElement);
+
+
+
 
         }
     });

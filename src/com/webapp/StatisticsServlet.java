@@ -20,7 +20,7 @@ import java.util.List;
                 PrintWriter out = response.getWriter();
 
                 String username = request.getParameter("username");
-                out.println(username);
+//                out.println(username);
 
 
         try {
@@ -43,14 +43,13 @@ import java.util.List;
                 String first_name = rs2.getString("language_one");
                 countLang.add(first_name);
             }
-            out.println(countLang + "\n");
 
-            List<String> countLangOne = new ArrayList<String>();
+            List<String> countLang1 = new ArrayList<String>();
             while (rs.next()) {
-            String count = rs.getString("count");
-                countLangOne.add(count);
+                String count = rs.getString("count");
+                countLang1.add(count);
             }
-            out.println(countLangOne + "\n");
+
 
 
 
@@ -59,14 +58,13 @@ import java.util.List;
                 String second_name = rs3.getString("count2");
                 countLang2.add(second_name);
             }
-            out.println(countLang2);
+
 
             List<String> countLang3 = new ArrayList<String>();
             while (rs4.next()) {
                 String third_name = rs4.getString("count3");
                 countLang3.add(third_name);
             }
-            out.println(countLang3);
 
 //            while (rs.next()) {
 //                String count = rs.getString(1);
@@ -86,18 +84,19 @@ import java.util.List;
 
             Gson gson = new Gson();
 
-            String jsonCountLangOne = gson.toJson(countLangOne);
-            out.println(jsonCountLangOne);
             String jsonCountLang = gson.toJson(countLang);
-            out.println(jsonCountLang);
+//            out.println(jsonCountLangOne);
+            String jsonCountLang1 = gson.toJson(countLang1);
+//            out.println(jsonCountLang);
             String jsonCountLang2 = gson.toJson(countLang2);
-            out.println(jsonCountLang2);
+//            out.println(jsonCountLang2);
             String jsonCountLang3 = gson.toJson(countLang3);
-            out.println(jsonCountLang3);
+//            out.println(jsonCountLang3);
 
-
-
-
+            response.setContentType("application/json");
+            response.setCharacterEncoding("UTF-8");
+            out.println(jsonCountLang);
+//            out.println(jsonCountLang1);
 
 
         } catch (SQLException | ClassNotFoundException e) {
