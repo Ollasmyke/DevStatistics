@@ -31,31 +31,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1058">
-              <caret line="58" column="51" lean-forward="false" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/webapp/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="7" column="134" lean-forward="true" selection-start-line="7" selection-start-column="134" selection-end-line="7" selection-end-column="134" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="964">
-              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="520">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-29618">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4632">
+              <caret line="231" column="50" lean-forward="true" selection-start-line="231" selection-start-column="50" selection-end-line="231" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1840">
+              <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -97,14 +107,18 @@
       <file leaf-file-name="StatisticsServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/webapp/StatisticsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1268">
-              <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="3560">
+              <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1515751626468" expanded="true" signature="1091:1173" ph="SELECT COUNT... users" />
-                <marker date="1515751626468" expanded="true" signature="1237:1312" ph="SELECT langu... users" />
-                <marker date="1515751626468" expanded="true" signature="1375:1462" ph="SELECT COUNT... users" />
-                <marker date="1515751626468" expanded="true" signature="1525:1610" ph="SELECT COUNT... users" />
+                <element signature="e#1854#1862#0" expanded="true" />
+                <element signature="e#2120#2128#0" expanded="true" />
+                <element signature="e#2369#2377#0" expanded="true" />
+                <element signature="e#2624#2632#0" expanded="true" />
+                <marker date="1515685994580" expanded="true" signature="1089:1171" ph="SELECT COUNT... users" />
+                <marker date="1515685994580" expanded="true" signature="1235:1310" ph="SELECT langu... users" />
+                <marker date="1515685994580" expanded="true" signature="1373:1460" ph="SELECT COUNT... users" />
+                <marker date="1515685994580" expanded="true" signature="1523:1608" ph="SELECT COUNT... users" />
               </folding>
             </state>
           </provider>
@@ -113,8 +127,8 @@
       <file leaf-file-name="ArrayHolder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/webapp/ArrayHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <state relative-caret-position="600">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/webapp/DB_Connector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -157,9 +171,6 @@
       <find>select</find>
     </findStrings>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -169,6 +180,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/css/coming-soon.css" />
+        <option value="$PROJECT_DIR$/src/com/webapp/Constants.java" />
         <option value="$PROJECT_DIR$/src/com/webapp/ProfileServlet.java" />
         <option value="$PROJECT_DIR$/web/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/web/index.html" />
@@ -185,10 +197,9 @@
         <option value="$PROJECT_DIR$/web/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/com/webapp/ArrayHolder.java" />
         <option value="$PROJECT_DIR$/web/test.jsp" />
-        <option value="$PROJECT_DIR$/src/com/webapp/TestServlet.java" />
         <option value="$PROJECT_DIR$/src/com/webapp/StatisticsServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/webapp/TestServlet.java" />
         <option value="$PROJECT_DIR$/web/js/main.js" />
-        <option value="$PROJECT_DIR$/src/com/webapp/Constants.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
@@ -223,11 +234,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="391" />
-    <option name="y" value="89" />
-    <option name="width" value="3257" />
-    <option name="height" value="1878" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1278" />
+    <option name="y" value="251" />
+    <option name="width" value="2556" />
+    <option name="height" value="1663" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -254,25 +265,12 @@
             <path>
               <item name="DevStatistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="DevStatistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DevStatistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DevStatistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DevStatistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DevStatistics" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -284,10 +282,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -502,13 +502,12 @@
       <workItem from="1515503700480" duration="6147000" />
       <workItem from="1515509994915" duration="54875000" />
       <workItem from="1515697720999" duration="2178000" />
-      <workItem from="1515700141907" duration="5390000" />
-      <workItem from="1515750183380" duration="7222000" />
+      <workItem from="1515700141907" duration="1116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177178000" />
+    <option name="totallyTimeSpent" value="165682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,7 +519,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3872" height="2092" extended-state="7" />
+    <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972047" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -530,12 +530,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972047" sideWeight="0.50106955" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="5.7339447E-4" sideWeight="0.49893048" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972047" sideWeight="0.49893048" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13368984" sideWeight="0.64429146" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13368984" sideWeight="0.35570854" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13181818" sideWeight="0.6468085" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13181818" sideWeight="0.3531915" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946524" sideWeight="0.4919149" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24975157" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -655,10 +655,14 @@
           <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1515751626468" expanded="true" signature="1091:1173" ph="SELECT COUNT... users" />
-            <marker date="1515751626468" expanded="true" signature="1237:1312" ph="SELECT langu... users" />
-            <marker date="1515751626468" expanded="true" signature="1375:1462" ph="SELECT COUNT... users" />
-            <marker date="1515751626468" expanded="true" signature="1525:1610" ph="SELECT COUNT... users" />
+            <element signature="e#1854#1862#0" expanded="true" />
+            <element signature="e#2120#2128#0" expanded="true" />
+            <element signature="e#2369#2377#0" expanded="true" />
+            <element signature="e#2624#2632#0" expanded="true" />
+            <marker date="1515685994580" expanded="true" signature="1089:1171" ph="SELECT COUNT... users" />
+            <marker date="1515685994580" expanded="true" signature="1235:1310" ph="SELECT langu... users" />
+            <marker date="1515685994580" expanded="true" signature="1373:1460" ph="SELECT COUNT... users" />
+            <marker date="1515685994580" expanded="true" signature="1523:1608" ph="SELECT COUNT... users" />
           </folding>
         </state>
       </provider>
@@ -714,10 +718,14 @@
           <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1515751626468" expanded="true" signature="1091:1173" ph="SELECT COUNT... users" />
-            <marker date="1515751626468" expanded="true" signature="1237:1312" ph="SELECT langu... users" />
-            <marker date="1515751626468" expanded="true" signature="1375:1462" ph="SELECT COUNT... users" />
-            <marker date="1515751626468" expanded="true" signature="1525:1610" ph="SELECT COUNT... users" />
+            <element signature="e#1854#1862#0" expanded="true" />
+            <element signature="e#2120#2128#0" expanded="true" />
+            <element signature="e#2369#2377#0" expanded="true" />
+            <element signature="e#2624#2632#0" expanded="true" />
+            <marker date="1515685994580" expanded="true" signature="1089:1171" ph="SELECT COUNT... users" />
+            <marker date="1515685994580" expanded="true" signature="1235:1310" ph="SELECT langu... users" />
+            <marker date="1515685994580" expanded="true" signature="1373:1460" ph="SELECT COUNT... users" />
+            <marker date="1515685994580" expanded="true" signature="1523:1608" ph="SELECT COUNT... users" />
           </folding>
         </state>
       </provider>
@@ -769,10 +777,14 @@
           <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1515751626468" expanded="true" signature="1091:1173" ph="SELECT COUNT... users" />
-            <marker date="1515751626468" expanded="true" signature="1237:1312" ph="SELECT langu... users" />
-            <marker date="1515751626468" expanded="true" signature="1375:1462" ph="SELECT COUNT... users" />
-            <marker date="1515751626468" expanded="true" signature="1525:1610" ph="SELECT COUNT... users" />
+            <element signature="e#1854#1862#0" expanded="true" />
+            <element signature="e#2120#2128#0" expanded="true" />
+            <element signature="e#2369#2377#0" expanded="true" />
+            <element signature="e#2624#2632#0" expanded="true" />
+            <marker date="1515685994580" expanded="true" signature="1089:1171" ph="SELECT COUNT... users" />
+            <marker date="1515685994580" expanded="true" signature="1235:1310" ph="SELECT langu... users" />
+            <marker date="1515685994580" expanded="true" signature="1373:1460" ph="SELECT COUNT... users" />
+            <marker date="1515685994580" expanded="true" signature="1523:1608" ph="SELECT COUNT... users" />
           </folding>
         </state>
       </provider>
@@ -807,6 +819,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/webapp/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -854,42 +873,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/webapp/TestServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
+        <state relative-caret-position="1840">
           <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10420">
-          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/webapp/DB_Connector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/webapp/ArrayHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -902,17 +889,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/webapp/StatisticsServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/webapp/TestServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1268">
-          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515751626468" expanded="true" signature="1091:1173" ph="SELECT COUNT... users" />
-            <marker date="1515751626468" expanded="true" signature="1237:1312" ph="SELECT langu... users" />
-            <marker date="1515751626468" expanded="true" signature="1375:1462" ph="SELECT COUNT... users" />
-            <marker date="1515751626468" expanded="true" signature="1525:1610" ph="SELECT COUNT... users" />
-          </folding>
+        <state relative-caret-position="880">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,26 +908,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/webapp/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/com/webapp/StatisticsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="7" column="134" lean-forward="true" selection-start-line="7" selection-start-column="134" selection-end-line="7" selection-end-column="134" />
+        <state relative-caret-position="3560">
+          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1854#1862#0" expanded="true" />
+            <element signature="e#2120#2128#0" expanded="true" />
+            <element signature="e#2369#2377#0" expanded="true" />
+            <element signature="e#2624#2632#0" expanded="true" />
+            <marker date="1515685994580" expanded="true" signature="1089:1171" ph="SELECT COUNT... users" />
+            <marker date="1515685994580" expanded="true" signature="1235:1310" ph="SELECT langu... users" />
+            <marker date="1515685994580" expanded="true" signature="1373:1460" ph="SELECT COUNT... users" />
+            <marker date="1515685994580" expanded="true" signature="1523:1608" ph="SELECT COUNT... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/webapp/ArrayHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/webapp/DB_Connector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="58" column="51" lean-forward="false" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+        <state relative-caret-position="480">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="964">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="520">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29618">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4632">
+          <caret line="231" column="50" lean-forward="true" selection-start-line="231" selection-start-column="50" selection-end-line="231" selection-end-column="50" />
           <folding />
         </state>
       </provider>

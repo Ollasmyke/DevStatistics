@@ -13,13 +13,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-        @WebServlet(name = "StatisticsServlet")
-        public class StatisticsServlet extends HttpServlet {
-            protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-                response.setContentType("text/plain");
-                PrintWriter out = response.getWriter();
+@WebServlet(name = "StatisticsServlet")
+public class StatisticsServlet extends HttpServlet {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/plain");
+        PrintWriter out = response.getWriter();
 
-                String username = request.getParameter("username");
+        String username = request.getParameter("username");
 //                out.println(username);
 
 
@@ -100,7 +100,7 @@ import java.util.List;
 
 
         } catch (SQLException | ClassNotFoundException e) {
-           e.printStackTrace();
+            e.printStackTrace();
         }
     }
 
