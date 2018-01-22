@@ -22,6 +22,8 @@ public class LoginServlet extends HttpServlet {
         String LangTwo = request.getParameter("two");       //
         String LangThree = request.getParameter("three");
 
+
+
         try {
             Class.forName(Constants.DB_Class);
             Connection conn = DriverManager.getConnection(
@@ -42,13 +44,19 @@ public class LoginServlet extends HttpServlet {
             ps2.setString(4, username);
 
             ResultSet rs = ps.executeQuery();
-//            rs.next();
+            out.println(username + password + LangOne + LangTwo + LangThree);
+            out.println(ps);
+            out.println(ps2);
             if (rs.getString("username").equals(username) && rs.getString("password").equals(password)){
                 int i = ps2.executeUpdate();
-                if (i > 0)
+                if (i > 0) {
                     out.print("You've successfully edited your Language Preferences.");
+                } else {
+                    out.println("Error");
+                }
             } else {
                     out.print("Invalid Login Credentials");
+
             }
             out.close();
         } catch (SQLException | ClassNotFoundException e) {

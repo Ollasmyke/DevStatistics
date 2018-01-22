@@ -8,14 +8,11 @@
 <body>
 
 Hello World
-<form action="/statistics" method="post">
+<form action="/register" method="post">
 
     <input name="username" type="text" />
     <button type="submit" />
 </form>
-<%
-    request.getAttribute("queryResults");
-%>
 </body>
 
 </html>

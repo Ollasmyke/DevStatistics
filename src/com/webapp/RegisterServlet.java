@@ -24,13 +24,14 @@ public class RegisterServlet extends HttpServlet {
         String LangThree = request.getParameter("three");
 
 
+
         try {
             Class.forName(Constants.DB_Class);
             Connection conn = DriverManager.getConnection(
                     Constants.DB_URL, Constants.DB_User, Constants.DB_Pass);
 
             PreparedStatement ps, ps2;
-            ps = conn.prepareStatement("insert into users values(?,?,?,?,?,?,?)");
+            ps = conn.prepareStatement("insert into users (first_name, last_name, username, password, language_one, language_two, language_three) values(?,?,?,?,?,?,?)");
 
             ps.setString(1, firstName);
             ps.setString(2, lastName);
@@ -44,15 +45,16 @@ public class RegisterServlet extends HttpServlet {
             ps2.setString(1, username);
 
             ResultSet rs = ps2.executeQuery();
-            rs.next();
-
-            if (rs.getString("username").equals(username)){
+//            if (rs.getString("username").equals(username)){
+            if (rs.next()){
                 out.println("Username taken! Register with another username.");
 
             } else {
                 int i = ps.executeUpdate();
             if (i > 0) {
                 out.write("You've successfully registered and posted a count.");
+            } else {
+                out.println("Error");
             }
 
         }

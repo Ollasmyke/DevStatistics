@@ -54,7 +54,7 @@ $('#loginButton').on('click', function (e) {
         url: "response",
         data: {username: username, password: password, one: Language.one, two: Language.two, three: Language.three},
         success: function (data) {
-            window.location = 'index.jsp';
+            // window.location = 'index.jsp';
             alert(data);
 
         }
@@ -81,8 +81,40 @@ $('#signupButton').on('click', function (e) {
         url: "register",
         data: {firstName: firstName, lastName: lastName, username: username, password: password, one: Language.one, two: Language.two, three: Language.three},
         success: function (data) {
-            window.location.reload();
+            // window.location.reload();
             alert(data);
+
+            $.ajax({
+                type: "POST",
+                url: "statistics",
+                success: function (data) {
+
+                    let jsonCountLang = data[0];
+                    let jsonCountLang1 = data[1];
+                    let jsonCountLang2 = data[2];
+                    let jsonCountLang3 = data[3];
+
+                    $.each(jsonCountLang,function (key, values) {
+                        let col1 = $("<li>").html(values).addClass("list-group-item d-flex justify-content-between align-items-left").appendTo($('#Rank'));
+                        // i++; j++;
+                        $("<span>").html(jsonCountLang1[key]).addClass("badge badge-primary badge-pill").appendTo(col1);
+                        $("<span>").html(jsonCountLang2[key]).addClass("badge badge-primary badge-pill").appendTo(col1);
+                        $("<span>").html(jsonCountLang3[key]).addClass("badge badge-primary badge-pill").appendTo(col1);
+
+                    });
+
+                    $('#dummy').replaceWith('#Rank');
+                    $('#Modal').modal("hide");
+
+                    // var listBadgeElement =  $('#data1');
+                    // var badgeElement =  $("<span class='badge badge-primary badge-pill'></span>").text(data[0]);
+                    // listBadgeElement.append(badgeElement);
+
+                }
+            });
+
+
+
 
         }
     });
@@ -107,8 +139,8 @@ $('#Shoot').on('click', function (e) {
                let col1 = $("<li>").html(values).addClass("list-group-item d-flex justify-content-between align-items-left").appendTo($('#Rank'));
                // i++; j++;
                 $("<span>").html(jsonCountLang1[key]).addClass("badge badge-primary badge-pill").appendTo(col1);
-                $("<span>").html(jsonCountLang2[key]).addClass("badge badge-primary badge-pill").prependTo(col1);
-                $("<span>").html(jsonCountLang3[key]).addClass("badge badge-primary badge-pill").prependTo(col1);
+                $("<span>").html(jsonCountLang2[key]).addClass("badge badge-primary badge-pill").appendTo(col1);
+                $("<span>").html(jsonCountLang3[key]).addClass("badge badge-primary badge-pill").appendTo(col1);
 
             });
 
