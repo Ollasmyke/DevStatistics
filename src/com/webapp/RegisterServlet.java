@@ -52,7 +52,7 @@ public class RegisterServlet extends HttpServlet {
             } else {
                 int i = ps.executeUpdate();
             if (i > 0) {
-                response.getWriter().write("You've successfully registered and posted a count.");
+                out.write("You've successfully registered and posted a count.");
             }
 
         }

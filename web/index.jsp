@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <%--<link rel="stylesheet" href="css/bootstrap.css">--%>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
