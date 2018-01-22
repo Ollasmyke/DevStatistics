@@ -45,18 +45,20 @@
         </div>
     </nav>
 </div>
-<div> <button id="Shoot" type="button"> Shoot </button> <span class="badge badge-primary badge-pill" id="value"></span> </div>
+<div> <button id="Shoot" type="button"> Shoot </button>
+    <%--<span class="badge badge-primary badge-pill" id="value"></span>--%>
+</div>
 
 <section class="hero-area">
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center">
-                <div class="col-lg-10" id="Rank">
-                    <ul class="list-group">
+                <div class="col-lg-10">
+                    <ul id="dummy" class="list-group">
 
-                        <li id="data20" class="list-group-item d-flex justify-content-between align-items-left"> Java <span id="data01" class="badge badge-primary badge-pill"></span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-left"> Java </li>
                         <li class="list-group-item"> Fortran </li>
-                        <li class="list-group-item">Python</li>
+                        <li class="list-group-item d-flex justify-content-between align-items-left">Python</li>
                         <li class="list-group-item">C</li>
                         <li class="list-group-item">C++</li>
                         <li class="list-group-item">C#</li>
@@ -68,6 +70,7 @@
                         <li class="list-group-item">MATLAB</li>
                         <li class="list-group-item">Perl</li>
                     </ul>
+                    <ul id="Rank" class="list-group"></ul>
                 </div>
             </div>
             <div class="col-md-6">
@@ -213,7 +216,7 @@
                 <div class="block">
                     <ul class="menu">
                         <li class="active"><a href="#">HOME</a></li>
-                        <li class=""> <a href="" data-toggle="modal">LOG IN</a> </li>
+                        <%--<li class=""> <a href="" data-toggle="modal">LOG IN</a> </li>--%>
                     </ul>
                     <p class="copyright-text">Copyright &copy; <a href="#">Programmers' Statistics</a>| All right reserved.</p>
                 </div>

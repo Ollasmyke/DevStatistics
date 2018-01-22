@@ -92,11 +92,12 @@ public class StatisticsServlet extends HttpServlet {
 //            out.println(jsonCountLang2);
             String jsonCountLang3 = gson.toJson(countLang3);
 //            out.println(jsonCountLang3);
+            String Counts = "["+jsonCountLang + "," + jsonCountLang1 + "," + jsonCountLang2 + "," + jsonCountLang3 + "]" ;
+//            String Counts = jsonCountLang + jsonCountLang1 + jsonCountLang2 + jsonCountLang3;
 
             response.setContentType("application/json");
             response.setCharacterEncoding("UTF-8");
-            out.println(jsonCountLang);
-//            out.println(jsonCountLang1);
+            out.println(Counts);
 
 
         } catch (SQLException | ClassNotFoundException e) {
