@@ -77,7 +77,7 @@
                 <div class="block">
                     <h1 class="">Programmers' Statistics</h1>
                     <div class="input-group input-group-newsletter">
-                        <p> What are You most Preferred Programming Languages?</p> <br/>
+                        <p> What are your most Preferred Programming Languages?</p> <br/>
                         <div class="mb-3">
                             <form action="" method="post">
                                 <div class="form-row">
@@ -182,20 +182,20 @@
                     <div class="top-row">
                         <div class="field-wrap">
                             <label>First Name<span class="req">*</span></label>
-                            <input id="firstName" type="text" required autocomplete="off" />
+                            <input id="firstName" name="firstName" type="text" required autocomplete="off" />
                         </div>
                         <div class="field-wrap">
                             <label>Last Name<span class="req">*</span></label>
-                            <input id="lastName" type="text" required autocomplete="off" />
+                            <input id="lastName" name="lastName" type="text" required autocomplete="off" />
                         </div>
                     </div>
                     <div class="field-wrap">
                         <label>Username<span class="req">*</span></label>
-                        <input id="usernameRegister" type="text" required autocomplete="off" />
+                        <input id="usernameRegister" name="usernameRegister" type="text" required autocomplete="off" />
                     </div>
                     <div class="field-wrap">
                         <label>Set A Password<span class="req">*</span></label>
-                        <input id="passwordRegister" type="password" required autocomplete="off" />
+                        <input id="passwordRegister" name="passwordRegister" type="password" required autocomplete="off" />
                     </div>
                     <button id="signupButton" type="button" class="button button-block" />Get Started</button>
                 </form>

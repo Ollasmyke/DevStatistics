@@ -60,4 +60,14 @@
         <servlet-name>TestServlet</servlet-name>
         <url-pattern>/tester</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginService</servlet-name>
+        <servlet-class>com.webapp.LoginService</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginService</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
 </web-app>

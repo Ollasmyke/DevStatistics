@@ -8,7 +8,7 @@
 <body>
 
 Hello World
-<form action="/register" method="post">
+<form action="login" method="post">
 
     <input name="username" type="text" />
     <button type="submit" />
