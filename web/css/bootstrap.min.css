@@ -489,7 +489,6 @@ input,
 select,
 textarea {
     line-height: inherit;
-    color: white;
 }
 
 input[type=checkbox]:disabled,

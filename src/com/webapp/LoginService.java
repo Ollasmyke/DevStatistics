@@ -41,11 +41,15 @@ public class LoginService extends HttpServlet {
 
             ResultSet rs = ps.executeQuery();
             rs.next();
+            int i = ps2.executeUpdate();
+
+
             if (rs.getString("username").equals(username) && rs.getString("password").equals(password)){
-                int i = ps2.executeUpdate();
-                if (i > 0)
+
+                if (i > 0){
                     out.print("You've successfully edited your Language Preferences.");
-            } else {
+                }
+            } else if (i == 0){
                 out.print("Invalid Login Credentials");
             }
             out.close();

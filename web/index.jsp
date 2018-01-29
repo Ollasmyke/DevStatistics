@@ -127,7 +127,7 @@
                                             <option>C++</option>
                                             <option>C#</option>
                                             <option>PHP</option>
-                                            <option>JavaScript</option>
+                                            <option>JavaScript &#xf3b8</option>
                                             <option>Swift</option>
                                             <option>Ruby</option>
                                             <option>Pascal</option>
@@ -169,7 +169,7 @@
                         <label>Username<span class="req">*</span></label>
                         <input id="username" name="username" type="text" required autocomplete="off" />
                     </div>
-                    <div class="field-wrap">
+                    <div class="field-wrap" style="color: white">
                         <label>Password<span class="req">*</span></label>
                         <input  id="password" name="password" type="password" required autocomplete="off" />
                     </div>
@@ -189,11 +189,11 @@
                             <input id="lastName" name="lastName" type="text" required autocomplete="off" />
                         </div>
                     </div>
-                    <div class="field-wrap">
+                    <div class="field-wrap" style="color: white">
                         <label>Username<span class="req">*</span></label>
                         <input id="usernameRegister" name="usernameRegister" type="text" required autocomplete="off" />
                     </div>
-                    <div class="field-wrap">
+                    <div class="field-wrap" style="color: white">
                         <label>Set A Password<span class="req">*</span></label>
                         <input id="passwordRegister" name="passwordRegister" type="password" required autocomplete="off" />
                     </div>
