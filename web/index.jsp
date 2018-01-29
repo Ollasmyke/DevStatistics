@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <%--<link rel="stylesheet" href="css/bootstrap.css">--%>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -165,7 +165,7 @@
         <div class="tab-content">
             <div id="login">
                 <form id="loginSubmit"  action="" method="post">
-                    <div class="field-wrap">
+                    <div class="field-wrap" style="color: white">
                         <label>Username<span class="req">*</span></label>
                         <input id="username" name="username" type="text" required autocomplete="off" />
                     </div>
@@ -180,11 +180,11 @@
             <div id="signup">
                 <form  id="signupSubmit" action="" method="post">
                     <div class="top-row">
-                        <div class="field-wrap">
+                        <div class="field-wrap" style="color: white">
                             <label>First Name<span class="req">*</span></label>
                             <input id="firstName" name="firstName" type="text" required autocomplete="off" />
                         </div>
-                        <div class="field-wrap">
+                        <div class="field-wrap" style="color: white">
                             <label>Last Name<span class="req">*</span></label>
                             <input id="lastName" name="lastName" type="text" required autocomplete="off" />
                         </div>
